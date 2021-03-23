@@ -41,17 +41,17 @@ public class StreamsTask {
         throw new RuntimeException("Not implemented");
     }
 
-    // metoda powinna zwracać średni wiek mężczyzn (sprawdzając, czy imię kończy się na "a")
+    // metoda powinna zwracać średni wiek mężczyzn (sprawdzając, czy imię nie kończy się na "a")
     Double averageMenAge(Collection<User> users) {
         throw new RuntimeException("Not implemented");
     }
 
-    // metoda powinna zwracać wydatki zgrupowane po ID użytkownika (sprawdzając, czy imię kończy się na "a")
+    // metoda powinna zwracać wydatki zgrupowane po ID użytkownika
     Map<Long, List<Expense>> groupExpensesByUserId(Collection<User> users, List<Expense> expenses) {
         throw new RuntimeException("Not implemented");
     }
 
-    // metoda powinna zwracać wydatki zgrupowane po użytkowniku (sprawdzając, czy imię kończy się na "a")
+    // metoda powinna zwracać wydatki zgrupowane po użytkowniku
     // podobne do poprzedniego, ale trochę trudniejsze
     Map<User, List<Expense>> groupExpensesByUser(Collection<User> users, List<Expense> expenses) {
         throw new RuntimeException("Not implemented");
